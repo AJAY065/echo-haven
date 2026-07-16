@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://echohavenmunnar.com"),
+
   verification: {
     google: "5si3VwqKOHPWy76zyDTRAESd54ngCiy8ZSKQQsHdB7c",
   },
-
-  metadataBase: new URL("https://echo-haven-nine.vercel.app"),
 
   title: {
     default: "Echo Haven | Camping & Nature Stay in Munnar",
@@ -48,9 +48,7 @@ export const metadata: Metadata = {
   ],
 
   creator: "Echo Haven",
-
   publisher: "Echo Haven",
-
   applicationName: "Echo Haven",
 
   robots: {
@@ -60,18 +58,12 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Echo Haven | Camping & Nature Stay in Munnar",
-
     description:
       "Experience peaceful camping surrounded by the beautiful hills of Munnar. Comfortable tents, campfires, breakfast included and breathtaking mountain views.",
-
-    url: "https://echo-haven-nine.vercel.app",
-
+    url: "https://echohavenmunnar.com",
     siteName: "Echo Haven",
-
     locale: "en_IN",
-
     type: "website",
-
     images: [
       {
         url: "/images/hero.png",
@@ -84,19 +76,10 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-
     title: "Echo Haven | Camping & Nature Stay in Munnar",
-
     description:
       "Escape into nature at Echo Haven, Munnar. Comfortable tents, mountain views, campfires, breakfast included and unforgettable experiences.",
-
     images: ["/images/hero.png"],
-  },
-
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
   },
 
   category: "Travel",
