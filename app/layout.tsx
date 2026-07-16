@@ -14,6 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "5si3VwqKOHPWy76zyDTRAESd54ngCiy8ZSKQQsHdB7c",
+  },
+
+  metadataBase: new URL("https://echo-haven-nine.vercel.app"),
+
   title: {
     default: "Echo Haven | Camping & Nature Stay in Munnar",
     template: "%s | Echo Haven",
@@ -57,6 +63,8 @@ export const metadata: Metadata = {
 
     description:
       "Experience peaceful camping surrounded by the beautiful hills of Munnar. Comfortable tents, campfires, breakfast included and breathtaking mountain views.",
+
+    url: "https://echo-haven-nine.vercel.app",
 
     siteName: "Echo Haven",
 

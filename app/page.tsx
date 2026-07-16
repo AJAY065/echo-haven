@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import VideoSection from "@/components/VideoSection";
 import Features from "@/components/Features";
+import Experiences from "@/components/Experiences";
 import Gallery from "@/components/Gallery";
 import Pricing from "@/components/Pricing";
 import Location from "@/components/Location";
@@ -23,14 +24,17 @@ export default function Home() {
       {/* About */}
       <About />
 
-      {/* Video */}
-      <VideoSection />
-
       {/* Features */}
       <Features />
 
+      {/* Adventure Experiences */}
+      <Experiences />
+
       {/* Gallery */}
       <Gallery />
+
+      {/* Video */}
+      <VideoSection />
 
       {/* Pricing */}
       <Pricing />
