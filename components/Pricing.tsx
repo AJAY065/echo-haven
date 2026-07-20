@@ -36,7 +36,7 @@ export default function Pricing() {
 
           <div className="mt-8 flex items-end gap-3">
             <span className="text-6xl font-extrabold text-green-700">
-              ₹1500
+              ₹2000
             </span>
 
             <span className="pb-2 text-xl text-gray-500">
