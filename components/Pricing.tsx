@@ -56,6 +56,7 @@ export default function Pricing() {
             <div>🔥 Evening Campfire with Music</div>
             <div>📶 Free High-Speed Wi-Fi</div>
             <div>🚗 Free Parking</div>
+            <div></div>
             <div>🌄 Beautiful Mountain Views</div>
             <div>🌿 Peaceful Nature Experience</div>
           </div>
