@@ -40,7 +40,7 @@ export default function Footer() {
   
               <p>📞 +91 86064 70462</p>
   
-              <p>📧 info@ecohaven.com</p>
+              <p>📧 echohaventents@gmail.com</p>
   
             </div>
   
